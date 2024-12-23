@@ -27,3 +27,4 @@ Aplicação web de lista de compras desenvolvida para o curso de construção de
 /f:/Projetos/CheckList ├── img │ ├── bag.png │ ├── delete.svg │ └── edit.svg ├── js │ ├── adicionarItem.js │ ├── criarItemDaLista.js │ ├── editarItem.js │ ├── excluirItem.js │ ├── gerarDiaDaSemana.js │ ├── verificarListaComprados.js │ └── verificarListaVazia.js ├── styles.css ├── index.html ├── scripts.js └── README.md
 
 ## 🚀 Como Executar o Projeto
+Acesse pelo gitHub pages https://joaogabriel43.github.io/CheckList
