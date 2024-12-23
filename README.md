@@ -1,36 +1,29 @@
+# Lista de Compras
 
-![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
+![Descrição da sua imagem](https://imgur.com/C8TfWXc.png)
 
-# Titulo do projeto
+## 📋 Descrição do Projeto
 
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+Aplicação web de lista de compras desenvolvida para o curso de construção de páginas dinâmicas com JavaScript. A aplicação permite inserir, editar e excluir itens de uma lista de compras, além de marcar itens como comprados.
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Funcionalidades do Projeto
 
-A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado.
+- **Adicionar Itens**: Permite adicionar itens à lista de compras.
+- **Editar Itens**: Permite editar o nome dos itens na lista.
+- **Excluir Itens**: Permite excluir itens da lista.
+- **Marcar como Comprado**: Permite marcar itens como comprados, movendo-os para uma lista separada.
+- **Data de Criação**: Exibe a data e o horário em que o item foi criado.
 
 ![Inserção no campo de digitação do valor ração de gato, após, é clicado no botão de edição, onde é aberto um popup para digitar o novo do nome item, que foi digitado ração de cachorro. Em seguida, é clicado no botão de exclusão, e o item é excluído.](https://imgur.com/isPj7Xf.gif)
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Técnicas e Tecnologias Utilizadas
 
-As técnicas e tecnologias utilizadas pra isso são:
+- **HTML**: Criação dos elementos da tela.
+- **CSS**: Estilização dos elementos.
+- **JavaScript**: Lógica de manipulação da lista de compras.
+- **Jest**: Framework de testes para JavaScript.
 
-- `HTML`: criação dos elementos da tela;
-- `CSS`: estilização da aplicação;
-- `JavaScript`: construção de elementos dinâmicos através da manipulação do DOM.
+## 📁 Estrutura do Projeto
+/f:/Projetos/CheckList ├── img │ ├── bag.png │ ├── delete.svg │ └── edit.svg ├── js │ ├── adicionarItem.js │ ├── criarItemDaLista.js │ ├── editarItem.js │ ├── excluirItem.js │ ├── gerarDiaDaSemana.js │ ├── verificarListaComprados.js │ └── verificarListaVazia.js ├── styles.css ├── index.html ├── scripts.js └── README.md
 
-## 📁 Acesso ao projeto
-
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
-
-## 🛠️ Abrir e rodar o projeto
-
-Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, no menu superior, clique em:
-
-- **File** > **Open Folder** (ou alguma opção similar)
-- Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
-- Por fim clique em OK
-
-Ao finalizar esses passos, você pode executar a aplicação com a extensão Live Server 🏆 
-
-
+## 🚀 Como Executar o Projeto

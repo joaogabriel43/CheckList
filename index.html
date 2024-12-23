@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Compras</title>
+    <!-- Preconexão com fontes do Google para melhorar o desempenho -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importa as fontes do Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
         rel="stylesheet">
+    <!-- Importa o arquivo de estilos CSS -->
     <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-
     <main>
+        <!-- Imagem de uma sacola de compras -->
         <img src="./img/bag.png" alt="sacola de compras">
+        <!-- Formulário para adicionar itens à lista de compras -->
         <form>
             <input class="input-item" id="input-item" type="text"
                 placeholder="Digite o item que deseja adicionar"></input>
@@ -25,7 +29,7 @@
         <div class="container-lista">
             <h2>Lista de compras</h2>
             <hr>
-
+            <!-- Lista de compras -->
             <ul id="lista-de-compras">
                 <p id="mensagem-lista-vazia" style="display: block">Sua lista está vazia. Adicione itens a ela para não
                     esquecer nada na próxima compra!</p>
@@ -34,12 +38,13 @@
             <div id="container-lista-comprados">
                 <h2>Comprado</h2>
                 <hr />
+                <!-- Lista de itens comprados -->
                 <ul id="lista-comprados">
-
                 </ul>
             </div>
         </div>
     </main>
+    <!-- Importa o arquivo de scripts JavaScript -->
     <script src="scripts.js" type="module"></script>
 </body>
 
